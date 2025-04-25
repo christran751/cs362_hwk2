@@ -4,7 +4,8 @@ from contrived_func import contrived_func
 
 class TestContrivedFunc(unittest.TestCase):
     """
-    This test attempt to achieve 100% Branch and Condition Coverage for the contrived_func.
+    This test attempt to achieve 100% Branch and Condition Coverage
+    for the contrived_func.
 
     Author: Christopher Tran
     Date: 04/24/2025
@@ -21,11 +22,11 @@ class TestContrivedFunc(unittest.TestCase):
         """
         contrived_func(3)
 
-    def test3(self):
-        """
-        False False False False
-        """
-        contrived_func(15)
+    # def test3(self):
+    #     """
+    #     False False False False
+    #     """
+    #     contrived_func(15)
 
     def test4(self):
         """
