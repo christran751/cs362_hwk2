@@ -10,6 +10,7 @@ class TestContrivedFunc(unittest.TestCase):
     Author: Christopher Tran
     Date: 04/24/2025
     """
+
     def test1(self):
         """
         True True False False
