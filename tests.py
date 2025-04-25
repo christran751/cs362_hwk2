@@ -22,11 +22,11 @@ class TestContrivedFunc(unittest.TestCase):
         """
         contrived_func(3)
 
-    # def test3(self):
-    #     """
-    #     False False False False
-    #     """
-    #     contrived_func(15)
+    def test3(self):
+        """
+        False False False False
+        """
+        contrived_func(15)
 
     def test4(self):
         """
