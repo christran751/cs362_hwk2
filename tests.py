@@ -3,18 +3,50 @@ from contrived_func import contrived_func
 
 
 class TestContrivedFunc(unittest.TestCase):
-
+    """
+    Template Docstring
+    """
     def test1(self):
-        contrived_func(0)
+        """
+        True True False False
+        """
+        contrived_func(13)
 
     def test2(self):
-        contrived_func(100)
+        """
+        True False False False
+        """
+        contrived_func(3)
 
     def test3(self):
-        contrived_func(1)
+        """
+        False False False False
+        """
+        contrived_func(15)
 
     def test4(self):
-        contrived_func(15)
+        """
+        True True False True
+        """
+        contrived_func(1)
+
+    def test5(self):
+        """
+        True False False False
+        """
+        contrived_func(0)
+
+    def test6(self):
+        """
+        False True False False
+        """
+        contrived_func(31)
+
+    def test7(self):
+        """
+        False True True False
+        """
+        contrived_func(998)
 
 
 if __name__ == '__main__':
