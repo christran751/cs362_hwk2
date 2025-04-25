@@ -32,7 +32,7 @@ class TestContrivedFunc(unittest.TestCase):
 
     def test5(self):
         """
-        True False False False
+        True False False True
         """
         contrived_func(0)
 
@@ -47,6 +47,14 @@ class TestContrivedFunc(unittest.TestCase):
         False True True False
         """
         contrived_func(998)
+
+    def test8(self):
+        """
+        False False True False
+        """
+        contrived_func(990)
+
+
 
 
 if __name__ == '__main__':
